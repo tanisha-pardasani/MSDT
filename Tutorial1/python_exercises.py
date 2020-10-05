@@ -55,7 +55,7 @@ def count_words(text):
     countwords = {}
     words = text.split()
     for i in words:
-        if 9 in countwords:
+        if i in countwords:
             countwords[i] += 1
         else:
             countwords[i] = 1
